@@ -38,8 +38,18 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 2rem;
   background-color: #222b;
+}
+
+.content-container {
+  max-width: 768px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  text-align: center;
+  overflow-y: auto;
 }
 
 #svg-spinner {
@@ -60,7 +70,7 @@ body {
   color: var(--clr-header);
   font-size: var(--fs-header);
   font-weight: 700;
-  background: -webkit-linear-gradient(45deg, #2015cc, #00eeaa 80%);
+  background: linear-gradient(45deg, #2015cc, #00eeaa 80%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -81,7 +91,6 @@ body {
 .description {
   font-size: var(--fs-description);
   color: var(--clr-description);
-  max-width: 768px;
   text-align: center;
   line-height: 1.3rem;
 }
@@ -91,6 +100,7 @@ body {
   gap: 2.4rem;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .social-anchor {
