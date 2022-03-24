@@ -1,0 +1,8 @@
+{
+  "name": "rapturerobotics.github.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:rapturerobotics/rapturerobotics.github.io.git",
+  "author": "bayramdev <48856944+bayramdev@users.noreply.github.com>",
+  "license": "MIT"
+}
